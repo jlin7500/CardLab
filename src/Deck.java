@@ -12,8 +12,13 @@ public class Deck
          {
              for (int i = 0; i < suit.length; i++)
              {
-                 
+                 Card newCard = new Card(ranks[i], suit[i], values[i]);
+                 unDealt.add(newCard);
              }
          }
+    }
+    public boolean isEmpty()
+    {
+        if ()
     }
 }
