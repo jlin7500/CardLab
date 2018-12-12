@@ -30,5 +30,8 @@ public class Card
         }
         return false;
     }
-    public
+    public String toString()
+    {
+        return rank + "\n" + suit + "\n" + pointValue;
+    }
 }
